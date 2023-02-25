@@ -1,4 +1,5 @@
 import 'package:api_integration/screens/home.dart';
+import 'package:api_integration/screens/landing_page.dart';
 import 'package:api_integration/screens/page2.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: LandingPage(),
     );
   }
 }
